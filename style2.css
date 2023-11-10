@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+:root{
+    --cor0:#fdc10d;
+    --cor1:#e0ce08;
+    --cor2:#b4a507;
+    --cor3:#90850e;
+    --cor4:#807710;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
+    --fonte-destaque: 'Nosifer', sem serifa;
+    --fonte-play: 'Play', cursive;
+}
+
+*{
+    margin: 1px;
+    padding: 1px;;
+}
+
+header{
+    background-color: #FDC20E;
+}
+
+nav {
+    background-color:#B8A906;
+    text-align: center;
+}
+
+nav > a {
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s;
+}

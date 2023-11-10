@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+@font-face {
+    font-family: 'Play';
+    src: url('./fonte/Play\ Pretend.otf')format('opentype');
+    font-weight: normal;
+}
+
+:root{
+    --cor0:#FDC20E;
+    --cor1:#e0ce08;
+    --cor2:#b4a507;
+    --cor3:#90850e;
+    --cor4:#807710;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
+    --fonte-destaque: 'Nosifer', sem serifa;
+    --fonte-play: 'Play', cursive;
+}
+
+*{
+    margin: 1px;
+    padding: 1px;;
+}
+
+
+header{
+    background-color: #FDC20E;
+}
+
+header > h1 {
+    font-family: var(--fonte-play);
+    text-align: center;
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: -9px;
+    
+}
+
+header > h2{
+    text-align: center;
+}
+
+
+nav {
+    background-color:#B8A906;
+    text-align: center;
+}
+
+nav > a {
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+
+nav > a:hover {
+    background-color: brown;
+    
+}
+
+
+main {
+    background-repeat: no-repeat;
+    background-size: 1000px 439px;
+    background-image: url('icone\ e\ slogan/foto01.png');
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: justify;
+}
+
+main img {
+    min-width: 200px;
+    padding: 0% 30%;
+}
+
+main  article  img {
+    min-width: 250px;
+}
+
+main h1 {
+text-align: center;
+}
+
+main p {
+    margin: 15px 0px;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+
+footer {
+    background-color: #FDC20E;
+    text-align: center;
+}
